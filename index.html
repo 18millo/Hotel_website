@@ -2,32 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+     <meta http-equiv="x-UA-Compatible" content="ie=edge">
+    <title>Hotel Milo/Rooms</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">
-                <h1>Hotel Millo</h1>
+                <h1><a href="index.html">HM</a></h1>    
             </div>
-            <div class="navy">
+            <div class="container">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="rooms.html" target="_blank">Rooms</a></li>
+                <li><a href="amenities.html" target="_blank">Amenities</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
             </ul>
             </div>
         </nav>
-    </header>
-    <section id="hero">
-        <div class="conatiner">
-            <div class="info">
-                
+        <div class="showcase">
+            <div class="showtent">
+                <div class="showing">
+                    <h1>Welcome to <span class="textprimary">HM</span></h1>
+                    <p>“Welcome to our cozy retreat! 
+                        Nestled in the heart of the city, 
+                        our hotel offers the perfect blend of comfort and convenience. 
+                        Explore our luxurious rooms, 
+                        indulge in our spa, 
+                        and savor delicious cuisine at our restaurant. 
+                        We look forward to making your stay memorable.”
+                    </p>
+                    <a href="rooms.html" class="btn">Book Now!</a>
+                </div>
             </div>
         </div>
+    </header>
+    <section class="home bglight">
+        <div class="infoimg"></div>
+        <div class="infocontent">
+            <h2><span class="textprimary">The History</span>of our hotel</h2>
+            <p class="textprimary">Welcome to the historic HNM, 
+                a landmark in Hemp county since 2002. 
+                Our story began in the year 2001 when Mr.John Millo envisioned a place where elegance and comfort would meet</p>
+        </div>
     </section>
-</body>
-</html>
+        <div class="footer">
+            <footer class="mainfoot">
+                <p>HM &copy; 2025, All Rights Reserved</p>
+            </footer>
+           </div>
